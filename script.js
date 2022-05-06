@@ -2,9 +2,9 @@ const symbol = require('/node_modules/symbol-sdk')
 
 const GENERATION_HASH = '7FCCD304802016BEBBCD342A332F91FF1F3BB5E902988B352697BE245F48E836'
 const EPOCH = 1637848847
-const XYM_ID = '152F416ABD3AB018'
-const NODE_URL = 'https://sym-test.opening-line.jp:3001'
-const NET_TYPE = symbol.NetworkType.TEST_NET
+const XYM_ID = '6BED913FA20223F8'
+const NODE_URL = 'https://sym-main-01.opening-line.jp'
+const NET_TYPE = symbol.NetworkType.MAIN_NET
 
 const repositoryFactory = new symbol.RepositoryFactoryHttp(NODE_URL)
 const accountHttp = repositoryFactory.createAccountRepository()
